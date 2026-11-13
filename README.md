@@ -17,3 +17,5 @@ Any Linux distro *does not work on windows, as explained here. `if runtime.GOOS 
 		os.Exit(1)
 	}
 `*
+
+^ BSD is a maybe. I don't think so, Android should work also, just need Termux and go-lang
