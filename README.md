@@ -11,7 +11,7 @@ This was partially written with Claude assistance, it is not all coded by an AI 
 
 
 **Dependancies**:
-Go-lang
+Go-lang,
 Any Linux distro *does not work on windows, as explained here. `if runtime.GOOS != "linux" {
 		fmt.Fprintln(os.Stderr, "go-stat only works with the linux kernel, sorry. ): (it reads /proc and /sys)")
 		os.Exit(1)
