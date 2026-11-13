@@ -5,7 +5,7 @@
 
 // nvidia is supported, but as always on linux AMD is preferable.
 
-// author Mason Nunez, this program is free under the MIT license.
+// author Mason Nunez, 2026, this program is free under the MIT license. see more at https://opensource.org/license/mit
 
 // flags:  -interval 2s   sampling window
 //
@@ -964,7 +964,7 @@ func main() {
 	flag.Parse()
 
 	if runtime.GOOS != "linux" {
-		fmt.Fprintln(os.Stderr, "hwprobe only works on Linux (it reads /proc and /sys)")
+		fmt.Fprintln(os.Stderr, "go-stat only works on with the linux kernel, sorry. ): (it reads /proc and /sys)")
 		os.Exit(1)
 	}
 
