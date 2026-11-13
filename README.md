@@ -8,3 +8,10 @@ Looks into /sys and /proc to track sensors, average loads, memory usage, so on s
 
 
 This was partially written with Claude assistance, it is not all coded by an AI however.
+
+
+
+Dependancies
+
+Go-lang
+Any Linux distro 
